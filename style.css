@@ -1,0 +1,216 @@
+em
+{
+	color: orangered;
+	font-style: normal;
+}
+.wanted
+{
+    position: relative;
+}
+.wanted img
+{
+    opacity: 0.5;
+}
+.wanted .coin
+{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 10%;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+}
+.wanted .coin1
+{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 10%;
+    color: orangered;
+    width: 80%;
+    font-size: 40px;
+}
+.wanted .coin .reward 
+{
+    text-align: center;
+    padding: 5% 27%;
+    font-weight: bold;
+}
+.wanted .coin1 .reward 
+{
+    text-align: center;
+    padding: 5% 27%;
+    font-weight: bold;
+}
+.wanted .gandalf
+{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: white;
+    font-size: 40px;
+}
+.wanted .gimli
+{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: white;
+    font-size: 50px;
+    text-decoration: line-through orangered;
+}
+.wanted:hover img
+{
+    opacity: 1;
+}
+.wanted:hover .coin .reward
+{
+    display: none;
+}
+.wanted:hover .gandalf
+{
+    top: 80%;
+    font-size: 30px;
+    left: 25%;
+}
+.orange
+{
+    background-color: orangered !important;
+}
+.white, h3
+{
+    color: white !important;
+}
+.black
+{
+    background-color: black;
+}
+body
+{
+    background-image: url(https://image.noelshack.com/fichiers/2019/09/6/1551513744-bg-light.png);
+}
+footer a 
+{
+    color: white !important;
+}
+.bor
+{
+    border-bottom: solid orangered;
+}
+@font-face
+{
+    font-family: 'font';
+    src: url('aniron/anicb___.ttf') format('truetype');
+}
+@font-face {
+    font-family: "tngani";
+    src: url("tengwar/tngani.ttf");
+}
+@font-face {
+    font-family: "nancy";
+    src: url("nancy/partybusiness.ttf");
+}
+body
+{
+    font-family: nancy;
+}
+h2
+{
+    font-family: 'font';
+    font-size: 25px;
+}
+h2::before, h2::after 
+{ 
+    content: " ij "; 
+    font-family: "tngani", Helvetica, Arial, sans-serif !important; 
+    color:orangered; 
+    font-size: 2rem; 
+    vertical-align:top; 
+}
+.orang
+{
+    color: orangered;
+}
+.bl
+{
+    border-right: 1px solid white;
+}
+.tdu
+{
+    text-decoration:underline white;
+}
+.alive
+{
+    font-size: 18px;
+}
+.bout
+{
+    background-color: white !important;
+    color: orangered;
+    transform: skew(-20deg);
+}
+.grey
+{
+    background-color: #E0E0E0;
+}
+.greys
+{
+    color: #757575;
+}
+td, .table-bordered thead th
+{
+    border-bottom: 2px solid black;
+}
+.bout1
+{
+    transform: skew(-20deg);
+}
+.blacke
+{
+    color: black;
+    font-size: 20px;
+}
+ ul li .blacke:hover
+{
+
+    color:orangered; 
+    text-decoration: underline;
+}
+.b
+{
+    font-family: "tngani", Helvetica, Arial, sans-serif !important; 
+    color:orangered; 
+    visibility: hidden;
+}
+ul li .blacke:hover .b
+{
+    visibility: visible;
+}
+.margin
+{
+    margin-bottom: 15%;
+}
+h3
+{
+    font-size: 40px;
+}
+.hea
+{
+    font-size: 30px;
+}
+.hr1
+{
+    width: 500px;
+    background: orangered;
+    margin-top: -16px;
+    margin-bottom: 0px;
+    height: 3px;
+}
+.hr2
+{
+    width: 500px;
+    background: orangered;
+    height: 3px;
+    margin-bottom: -16px;
+}
